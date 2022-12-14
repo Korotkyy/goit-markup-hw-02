@@ -51,7 +51,26 @@ footer {
     width: 1440px;
  height: 723px;
 }
-.img-size {
+.inline {
+    color: #2E2F42;
+    list-style-type: none;
+    display: inline-block;
+}
+.contacts {
+    color: #2E2F42;
+    text-align: right;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+}
+.img-positioning {
+    list-style-type: none;
+    display: inline-block;  
+}
+.text {
+    list-style-type: none;
+    display: inline-block;
     width: 264px;
-    height: 260px; 
+    height: 72px;
 }

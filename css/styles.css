@@ -9,6 +9,7 @@
     --footer-text: #E7E9FC;
     --order-service: #4D5AE5;
     --logo-web: #4D5AE5;
+    --footer-logo-studio: #ffffff;
 
 }
 
@@ -17,6 +18,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.footer-logo-web {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--logo-web);
+}
 .header-logo-web {
 text-decoration: none;
 font-family: 'Raleway', sans-serif;
@@ -27,6 +37,15 @@ letter-spacing: 0.03em;
 color: var(--logo-web);
 }
 
+.footer-logo-studio {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--footer-logo-studio); 
+}
 .header-logo-studio {
 text-decoration: none;
 font-family: 'Raleway', sans-serif;

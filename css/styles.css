@@ -40,9 +40,6 @@ color: var(--logo-web);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
     color: var(--footer-logo-studio); 
 }
 .header-logo-studio {
@@ -72,10 +69,7 @@ cursor: pointer;
 footer {
     background-color: #2E2F42;
     color: var(--white-text);
-    width: 1440px;
- height: 310px;
-font-size: 16px;
-line-height: 1.5;
+
 }
 .our-team {
 background-color: #F4F4FD;
@@ -197,9 +191,11 @@ color: var(--footer-text);
     list-style-type: none;
 }
 .btn {
-font-weight: 400;
+    font-family: inherit;
+font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
+letter-spacing: 0.04em;
     background-color: #F4F4FD;
     cursor: pointer;
     color: #4D5AE5;
@@ -229,7 +225,7 @@ a {
   }
   
 .pre-title {
-font-weight: 600;
+font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;

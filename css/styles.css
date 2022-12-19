@@ -28,7 +28,6 @@ body {
     color: var(--logo-web);
 }
 .header-logo-web {
-text-decoration: none;
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -47,12 +46,6 @@ color: var(--logo-web);
     color: var(--footer-logo-studio); 
 }
 .header-logo-studio {
-text-decoration: none;
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
 color: var(--navy-blue-text);
 }
 
@@ -60,17 +53,16 @@ color: var(--navy-blue-text);
     font-family: inherit;
     background-color: var(--order-service);
     color: var(--white-text);
-    position: absolute;
-width: 170px;
-height: 51px;
-left: 635px;
-top: 432px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 .hiro {
         background-color: var(--background-hiro);
         color: var(--white-text);
-        width: 1440px;
-        height: 603px;
         text-align: center;
         font-size: 56px;
         line-height: 1.07;
@@ -103,12 +95,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--post-title-slate);
+color: var(--post-title);
 text-decoration: none;
 }
 
 .contacts {
-    color: var(--post-title-slate);
+    color: var(--post-title);
     text-align: right;
     list-style-type: none;
     display: inline-block;
@@ -118,6 +110,11 @@ text-decoration: none;
 .img-positioning {
     list-style-type: none; 
 }
+
+.img-positioning-our-team {
+    list-style-type: none;
+    background-color: #ffffff;
+} 
 .skils-text {
 
     font-weight: 400;
@@ -125,10 +122,6 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--post-title-slate);
-    list-style-type: none;
-    width: 264px;
-    height: 72px;
-    list-style-type: none;
 }
 
 .skils-list {
@@ -222,12 +215,13 @@ line-height: 24px;
     color: #ffffff  ;
   }
 
-a:link {
+a {
     text-decoration: none;  
-    list-style-type: none;
+    
   }
   a:hover {
     text-decoration: none;
+    color: #4D5AE5;
   }
   
   a:active {

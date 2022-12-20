@@ -57,8 +57,11 @@ line-height: 1.18;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
+.hiro-section {
+    background-color: var(--background-hiro)
+}
+
 .hiro {
-        background-color: var(--background-hiro);
         color: var(--white-text);
         text-align: center;
         font-size: 56px;
@@ -84,6 +87,16 @@ background-color: #F4F4FD;
     list-style-type: none;
 }
 
+.header-item:focus {
+    background-color: #4D5AE5;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-link:focus {
+    background-color: #4D5AE5;
+    text-decoration: none;
+    color: #ffffff;
+}
 .header-link {
 font-weight: 400;
 font-size: 16px;
@@ -208,7 +221,7 @@ letter-spacing: 0.04em;
   .btn:focus {
     background-color: #4D5AE5;
     text-decoration: none;
-    color: #ffffff  ;
+    color: #ffffff;
   }
 
 a {
